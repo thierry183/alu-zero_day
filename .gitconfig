@@ -1,0 +1,4 @@
+[user]
+	email = t.muhire1@alustudent.com
+	name = thierry183
+	email = t.muhire1@alustudent.com\ngit config --global user.email t.muhire1@alustudent.com\ngit config --global user.name thierry183\n\ngit push\n\ngit commit -m pushing

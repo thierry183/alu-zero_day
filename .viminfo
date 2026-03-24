@@ -10,11 +10,32 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<Please\>
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1773768038,,"wq"
+|2,0,1774368504,,"wq"
+:wq 0-current_working_directory
+|2,0,1774368072,,"wq 0-current_working_directory"
+:wq well
+|2,0,1774347975,,"wq well"
 :q
-|2,0,1773767984,,"q"
+|2,0,1774245523,,"q"
+:q!
+|2,0,1774176939,,"q!"
+:wq! bash/best
+|2,0,1774006549,,"wq! bash/best"
+:wq bash/best
+|2,0,1774006505,,"wq bash/best"
+:wq!the_creator.sh
+|2,0,1773820260,,"wq!the_creator.sh"
+:wq!
+|2,0,1773819562,,"wq!"
+:w!
+|2,0,1773819545,,"w!"
+:w shell script
+|2,0,1773819461,,"w shell script"
 :wq! end_of_line
 |2,0,1773575835,,"wq! end_of_line"
 :wq end_of_line
@@ -45,6 +66,8 @@
 |2,0,1773572727,,"w notes"
 
 # Search String History (newest to oldest):
+? \<Please\>
+|2,1,1774121059,,"\\<Please\\>"
 
 # Expression History (newest to oldest):
 
@@ -55,230 +78,310 @@
 # Registers:
 
 # File marks:
-'0  2  0  /alche-zero_day/.git/COMMIT_EDITMSG
-|4,48,2,0,1773768038,"/alche-zero_day/.git/COMMIT_EDITMSG"
-'1  1  0  ~/vi/end_of_line
-|4,49,1,0,1773575835,"~/vi/end_of_line"
-'2  2  0  ~/vi/end_of_line
-|4,50,2,0,1773575662,"~/vi/end_of_line"
-'3  1  0  ~/vi/beginning_of_the_line
-|4,51,1,0,1773575418,"~/vi/beginning_of_the_line"
-'4  1  2  ~/vi/exiting
-|4,52,1,2,1773575227,"~/vi/exiting"
-'5  1  2  ~/vi/exiting
-|4,53,1,2,1773574881,"~/vi/exiting"
-'6  1  0  ~/vi/undoing
-|4,54,1,0,1773574691,"~/vi/undoing"
-'7  1  1  ~/vi/pasting
-|4,55,1,1,1773574476,"~/vi/pasting"
-'8  1  1  ~/vi/cutting
-|4,56,1,1,1773574289,"~/vi/cutting"
-'9  1  0  ~/vi/inserting
-|4,57,1,0,1773574211,"~/vi/inserting"
+'0  2  2  /alche-shell/basics/0-current_working_directory
+|4,48,2,2,1774368504,"/alche-shell/basics/0-current_working_directory"
+'1  1  14  /alche-shell/basics/0-current_working_directory
+|4,49,1,14,1774368239,"/alche-shell/basics/0-current_working_directory"
+'2  1  14  /alche-shell/basics/0-current_working_directory
+|4,50,1,14,1774368239,"/alche-shell/basics/0-current_working_directory"
+'3  1  13  /alche-shell/basics/0-current_working_directory
+|4,51,1,13,1774368072,"/alche-shell/basics/0-current_working_directory"
+'4  2  2  /alche-shell/basics/0-current_working_directory
+|4,52,2,2,1774368072,"/alche-shell/basics/0-current_working_directory"
+'5  1  0  /alche-shell/basics/0-current_working_directory
+|4,53,1,0,1774367974,"/alche-shell/basics/0-current_working_directory"
+'6  1  0  /alche-shell/basics/0-current_working_directory
+|4,54,1,0,1774367974,"/alche-shell/basics/0-current_working_directory"
+'7  1  13  /alche-shell/basics/0-current_working_directory
+|4,55,1,13,1774367739,"/alche-shell/basics/0-current_working_directory"
+'8  1  13  /alche-shell/basics/0-current_working_directory
+|4,56,1,13,1774367739,"/alche-shell/basics/0-current_working_directory"
+'9  2  0  /activity/well
+|4,57,2,0,1774347975,"/activity/well"
 
 # Jumplist (newest first):
--'  2  0  /alche-zero_day/.git/COMMIT_EDITMSG
-|4,39,2,0,1773768038,"/alche-zero_day/.git/COMMIT_EDITMSG"
--'  1  0  /alche-zero_day/.git/COMMIT_EDITMSG
-|4,39,1,0,1773767881,"/alche-zero_day/.git/COMMIT_EDITMSG"
--'  1  0  ~/vi/end_of_line
-|4,39,1,0,1773575835,"~/vi/end_of_line"
--'  1  0  ~/vi/end_of_line
-|4,39,1,0,1773575835,"~/vi/end_of_line"
--'  2  0  ~/vi/end_of_line
-|4,39,2,0,1773575662,"~/vi/end_of_line"
--'  2  0  ~/vi/end_of_line
-|4,39,2,0,1773575662,"~/vi/end_of_line"
--'  1  0  ~/vi/end_of_line
-|4,39,1,0,1773575536,"~/vi/end_of_line"
--'  1  0  ~/vi/end_of_line
-|4,39,1,0,1773575536,"~/vi/end_of_line"
--'  1  0  ~/vi/beginning_of_the_line
-|4,39,1,0,1773575418,"~/vi/beginning_of_the_line"
--'  1  0  ~/vi/beginning_of_the_line
-|4,39,1,0,1773575418,"~/vi/beginning_of_the_line"
--'  1  0  ~/vi/beginning_of_the_line
-|4,39,1,0,1773575418,"~/vi/beginning_of_the_line"
--'  1  0  ~/vi/beginning_of_the_line
-|4,39,1,0,1773575418,"~/vi/beginning_of_the_line"
--'  1  0  ~/vi/beginning_of_the_line
-|4,39,1,0,1773575418,"~/vi/beginning_of_the_line"
--'  1  0  ~/vi/beginning_of_the_line
-|4,39,1,0,1773575418,"~/vi/beginning_of_the_line"
--'  1  0  ~/vi/beginning_of_the_line
-|4,39,1,0,1773575418,"~/vi/beginning_of_the_line"
--'  1  0  ~/vi/beginning_of_the_line
-|4,39,1,0,1773575418,"~/vi/beginning_of_the_line"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773575227,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  2  ~/vi/exiting
-|4,39,1,2,1773574881,"~/vi/exiting"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
--'  1  0  ~/vi/undoing
-|4,39,1,0,1773574691,"~/vi/undoing"
+-'  2  2  /alche-shell/basics/0-current_working_directory
+|4,39,2,2,1774368504,"/alche-shell/basics/0-current_working_directory"
+-'  1  14  /alche-shell/basics/0-current_working_directory
+|4,39,1,14,1774368294,"/alche-shell/basics/0-current_working_directory"
+-'  1  14  /alche-shell/basics/0-current_working_directory
+|4,39,1,14,1774368239,"/alche-shell/basics/0-current_working_directory"
+-'  2  2  /alche-shell/basics/0-current_working_directory
+|4,39,2,2,1774368072,"/alche-shell/basics/0-current_working_directory"
+-'  1  0  /alche-shell/basics/0-current_working_directory
+|4,39,1,0,1774368013,"/alche-shell/basics/0-current_working_directory"
+-'  1  0  /alche-shell/basics/0-current_working_directory
+|4,39,1,0,1774367974,"/alche-shell/basics/0-current_working_directory"
+-'  2  2  /alche-shell/basics/0-current_working_directory
+|4,39,2,2,1774367739,"/alche-shell/basics/0-current_working_directory"
+-'  1  11  /alche-shell/basics/0-current_working_directory
+|4,39,1,11,1774367667,"/alche-shell/basics/0-current_working_directory"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  2  0  /activity/well
+|4,39,2,0,1774347975,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  1  0  /activity/well
+|4,39,1,0,1774347120,"/activity/well"
+-'  2  0  /alche-shell/basics/0-current_working_directory
+|4,39,2,0,1774344574,"/alche-shell/basics/0-current_working_directory"
+-'  2  0  /alche-shell/basics/0-current_working_directory
+|4,39,2,0,1774344574,"/alche-shell/basics/0-current_working_directory"
+-'  2  2  /alche-shell/basics/0-current_working_directory
+|4,39,2,2,1774344217,"/alche-shell/basics/0-current_working_directory"
+-'  2  2  /alche-shell/basics/0-current_working_directory
+|4,39,2,2,1774344217,"/alche-shell/basics/0-current_working_directory"
+-'  1  0  /alche-shell/basics/0-current_working_directory
+|4,39,1,0,1774344181,"/alche-shell/basics/0-current_working_directory"
+-'  1  0  /alche-shell/basics/0-current_working_directory
+|4,39,1,0,1774344181,"/alche-shell/basics/0-current_working_directory"
+-'  1  0  /alche-shell/basics/0-current_working_directory
+|4,39,1,0,1774344181,"/alche-shell/basics/0-current_working_directory"
+-'  1  0  /alche-shell/basics/0-current_working_directory
+|4,39,1,0,1774344181,"/alche-shell/basics/0-current_working_directory"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
+-'  2  23  /alche-zero_day/git/bash/school
+|4,39,2,23,1774251695,"/alche-zero_day/git/bash/school"
 
 # History of marks within files (newest to oldest):
+
+> /alche-shell/basics/0-current_working_directory
+	*	1774368488	0
+	"	2	2
+	^	2	3
+	.	2	2
+	+	1	14
+	+	1	11
+	+	1	0
+	+	1	11
+	+	2	2
+
+> /alche-zero_day/git/bash/school
+	*	1774251534	0
+	"	2	23
+	^	2	25
+	.	2	25
+	+	1	0
+	+	2	6
+	+	1	10
+	+	2	25
+
+> /alche-zero_day/git/bash/best
+	*	1774250564	0
+	"	1	0
+	^	3	0
+	.	2	18
+	+	2	18
+
+> /alche-zero_day/git/.gitignore
+	*	1774249975	0
+	"	2	1
+	^	2	2
+	.	2	1
+	+	2	1
+
+> ~/alche-shell/basics/0-current_working_directory
+	*	1774210957	0
+	"	2	0
+	^	2	1
+	.	2	2
+	+	2	2
+
+> /alche-zero_day/alche-shell/basics/0-current_working_directory
+	*	1774177496	0
+	"	2	2
+	^	2	3
+	.	2	2
+	+	2	2
+
+> /alche-zero_day/alche-shell/basics/o-current_working_directory
+	*	1774177277	0
+	"	2	2
+	^	2	3
+	.	2	3
+	+	1	11
+	+	1	12
+	+	2	3
+
+> /alche-zero_day/git/.git/MERGE_MSG
+	*	1774121171	0
+	"	3	22
+	^	3	22
+	.	3	0
+	+	3	0
+
+> /alu-zero_day/bash/school
+	*	1774004635	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	1	11
+	+	2	5
+
+> /alu-zero_day/bash/best
+	*	1774004350	0
+	"	2	3
+	^	2	4
+	.	2	3
+	+	2	3
 
 > /alche-zero_day/.git/COMMIT_EDITMSG
 	*	1773768006	0
